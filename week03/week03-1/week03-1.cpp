@@ -3,9 +3,9 @@
 int main()
 {
     int a = 5;
-    ///if(a%2==1) printf("odd\n"); ///1¦¸
-    while(a%2==1) printf("odd\n"); ///1ª½
-    ///if(a>0) printf("a is > 0\n"); ///1¦¸
-    while(a>0) printf("a is > 0\n"); ///1ª½
+    ///if(a%2==1) printf("odd\n"); ///1æ¬¡
+    while(a%2==1) printf("odd\n"); ///1ç›´
+    ///if(a>0) printf("a is > 0\n"); ///1æ¬¡
+    while(a>0) printf("a is > 0\n"); ///1ç›´
 }
-///°õ¦æwhile ®É¡A³ºµM´N¥d¦b¤W­±
+///åŸ·è¡Œwhile æ™‚ï¼Œç«Ÿç„¶å°±å¡åœ¨ä¸Šé¢
