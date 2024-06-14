@@ -1,14 +1,14 @@
 #include <stdio.h>
-int myAdd(int a, int b){ ///¨ç¦¡©w¸q­n¦b«e­±
+int myAdd(int a, int b){ ///å‡½å¼å®šç¾©è¦åœ¨å‰é¢
     return a+b;
 }
-void myPrint(int a){ ///¨ç¦¡©w¸q ¶i¨Ó1­Ó
+void myPrint(int a){ ///å‡½å¼å®šç¾© é€²ä¾†1å€‹
     for(int i=1; i<=a; i++) printf("*");
     printf("\n");
 }
-int main() ///main()¨ç¦¡
+int main() ///main()å‡½å¼
 {
-    int ans = myAdd(3, 4); ///¨ç¦¡©I¥s
+    int ans = myAdd(3, 4); ///å‡½å¼å‘¼å«
     printf("Hello ans: %d\n", ans);
-    myPrint(ans); ///¨ç¦¡©I¥s(½Ğ¥LÀ°§Ú°µ¨Æ)
+    myPrint(ans); ///å‡½å¼å‘¼å«(è«‹ä»–å¹«æˆ‘åšäº‹)
 }
