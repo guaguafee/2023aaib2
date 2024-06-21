@@ -14,9 +14,9 @@ int main()
     int BOUND = 300000, ans = 0;
     for(int i=2; i<=BOUND; i++){
         if(isPrime(i)){
-            printf("%d", i); ///借计
+            printf("%d ", i); ///借计
             ans++; ///借计
         }
     }
-    printf("借计Τ:%d\n", ans);
+    printf("借计Τ:%2d\n", ans);
 }
